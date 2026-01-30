@@ -4,7 +4,7 @@ public class reversinguser {
         Scanner S = new Scanner(System.in);
         System.out.print("Enter a number to reverse: ");
         int num = S.nextInt();
-        int reversed = 0
+        int reversed = 0;
 
         while (num != 0) {
             int digit = num % 10;
@@ -15,5 +15,6 @@ public class reversinguser {
         System.out.println("Reversed number: " + reversed);
         S.close();
     }
+    
 
 }
