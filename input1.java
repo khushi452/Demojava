@@ -5,6 +5,9 @@ public class input1 {
         System.out.println("Enter the number");
         int n = S.nextInt();
         System.out.println(n);
+        int m = S.nextInt();
+        System.out.println("the sum of n and m is:");
+        System.out.println(n+m);
 
     }
 }
