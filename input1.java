@@ -11,5 +11,7 @@ public class input1 {
         System.out.println(n+m);
         System.out.println("Area of the circle of radius n is :" + 3.14*n*n);
         System.out.println("Area of the circle of radius m is :" + 3.14*m*m);
+        S.close();
+        
     }
 }
