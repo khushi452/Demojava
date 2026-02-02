@@ -10,6 +10,9 @@ public class literals {
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
+        System.out.println(aa);
+        System.out.println(bb);
+        System.out.println("The value of a in binary is: " + Integer.toBinaryString(a));
 
      }
     
