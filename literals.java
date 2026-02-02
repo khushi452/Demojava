@@ -4,6 +4,8 @@ public class literals {
         int b = 146;
         int c = 0x73b;
         int d = 0b1101;
+        float aa = 101.203f;
+        double bb = 0x1.8p3;
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
