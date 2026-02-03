@@ -1,9 +1,9 @@
-class First{
+public class First{
 
 }
 class Second{
 
 }
 class Third{
-    
+
 }
