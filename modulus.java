@@ -3,6 +3,7 @@ public class modulus {
         double x = 13.5;
         double y = 5.2;
         double result = x % y;
+        
         System.out.println("The modulus of " + x + " % " + y + " is: " + result);
     }
     
