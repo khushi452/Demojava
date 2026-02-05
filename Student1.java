@@ -14,9 +14,8 @@ void display(){
 
 public class Student1 {
     public static void main(String[] args) {
-        Demo s1 = new Demo();
-        s1.getdata(1,"ABC");
-        System.out.println("Roll no: "+s1.r);
-        System.out.println("Name: "+s1.name);
+        Demo D1 = new Demo();//creayed an object of class Demo
+        D1.getdata(1,"Khushi");
+        D1.display();
     }
 }
