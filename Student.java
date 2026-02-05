@@ -2,7 +2,7 @@ public class Student {
     int r;
     String name;
     void getdata(){
-        r=0;
+        r=1;
         name="ABC";
     }
     void display(){
