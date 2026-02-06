@@ -1,6 +1,7 @@
 
 class Staticexample {
     void normal() {
+        display();
         System.out.println("This is a normal method");
     }
 
@@ -10,6 +11,7 @@ class Staticexample {
     }
 
     static void show() {
+        
         System.out.println("This is another static method");
     }  
 }
