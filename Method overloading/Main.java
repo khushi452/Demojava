@@ -12,9 +12,9 @@ class Overload{
 public class Main {
     public static void main(String[] args) {
         Overload o1 = new Overload();
-        int r = o1.add(10,20);
-        System.out.println(r);
-        System.out.println(o1.add(1,2,3));
-        System.out.println(o1.add(1,2.5));
+        // int r = o1.add(10,20);
+        // System.out.println(r);
+        double d = o1.add(2,3.5);
+        System.out.println(d);
     }
 }
