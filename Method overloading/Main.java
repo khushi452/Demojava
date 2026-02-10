@@ -5,7 +5,7 @@ class Overload{
     int add(int a, int b, int c){
         return a+b+c;
     }
-    double add(int a, double b){
+    long add(int a, double b){
         return a+b;
     }
 }
@@ -14,7 +14,10 @@ public class Main {
         Overload o1 = new Overload();
         // int r = o1.add(10,20);
         // System.out.println(r);
-        double d = o1.add(2,3.5);
-        System.out.println(d);
+        // double d = o1.add(2,3.5);
+        // System.out.println(d);
+        long l = o1.add(10,3.5);
+        System.out.println(l);
+
     }
 }
