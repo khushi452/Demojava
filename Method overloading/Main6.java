@@ -1,34 +1,39 @@
-class animal{
+class Animal {
+
     String name;
-    animal(String name){
+
+    Animal(String name) {
         this.name = name;
-        System.out.println("Animal Constructor Called");
+    }
+
+    void display() {
+        System.out.println("Animal Name: " + name);
     }
 }
-class dog extends animal{
+
+class Dog extends Animal {
+
     int age;
-    dog(String name, int age){
-        super(name);
+
+    Dog(String name, int age) {   // constructor of child class
+        super(name);              // calling parent constructor
         this.age = age;
-        System.out.println("Dog Constructor Called");
     }
-    
-    void display(){
-        System.out.println("Dog Name: " + name);
+
+    void show() {
         System.out.println("Dog Age: " + age);
-    }
-    
-    void show(){
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
+        System.out.println("Dog Name: " + name);
     }
 }
 
 public class Main6 {
-    public static void main(String[] args){
-        dog d1 = new dog("Buddy", 5);
-        d1.display();
+
+    public static void main(String[] args) {
+
+        Dog d = new Dog("Buddy", 5);  // object of Dog
+
+        d.show();
         System.out.println();
-        d1.show();
+        d.display();   // calling parent method
     }
 }
