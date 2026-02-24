@@ -15,6 +15,8 @@ interface CC extends AA{
 }
 class Program2 implements BB,CC{
     public void display(){
+        CC.super.display(); 
+        BB.super.display(); //to resolve the ambiguity we have to specify the interface name. if we want to execute BB interface method then we have to write BB.super.display();
         System.out.println("This is class Program2");
 }
 }
