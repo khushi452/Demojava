@@ -15,6 +15,7 @@ public class Program1 implements I2{
     public static void main(String[] args) {
         Program1 p = new Program1();
         p.display();
+        System.out.println(Program1.r)//class variable will be executed by interface or class method will be executed by class method.
     }
 
     
