@@ -1,0 +1,10 @@
+package pack2;
+import pack1.First;
+
+public class Test {
+    public static void main(String[] args){
+        First F = new First();
+        F.display();
+    }
+    
+}
