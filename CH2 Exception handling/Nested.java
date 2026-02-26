@@ -11,11 +11,11 @@ public class Nested {
                     int c[]={1,2};
                 }
             }
-            catch(ArithmeticException e){
+            catch(ArrayIndexOutOfBoundsException e){
                 System.out.println(e.getMessage());
             }
         }
-        catch(ArithmeticException e){
+        catch(ArithmeticException e){//nullpointer exception
             System.out.println(e.getMessage());
         }    
     }
