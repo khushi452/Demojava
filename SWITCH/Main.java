@@ -6,10 +6,10 @@ public class Main{
         String r = S.nextLine();
         switch(r)//we can pass string in java
         {
-            case "Mon":
+            case "Mon","thrs":
                 System.out.println("Case1");
                 break;
-             case "tue":
+             case "tue","fri":
                 System.out.println("Case2");
                 break;
              case "wed":
