@@ -14,7 +14,6 @@ public class Main3 {
             default :
                  yield 0;
         };
-
         System.out.println("Result: " + res);
         S.close();
     }
