@@ -12,7 +12,7 @@ class Class2 implements Runnable{
     public void run()
     {
         for(char i='A';i<='E';i++)
-            System.out.println(i);
+            System.out.print(i);
     }
     
 }
@@ -22,6 +22,11 @@ public class  THREAD{
         Class1 T1= new Class1();
         Class2 C1=new Class2();
         Thread T2= new Thread(C1);
+        //Priorities
+        // T1.setPriority(1);
+        // T2.setPriority(10);
+        T1.setPriority(Thread.MAX_PRIORITY);
+        T2.setPriority(Thread.MIN_PRIORITY);
         T1.start();
         T2.start();
 
