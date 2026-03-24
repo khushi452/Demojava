@@ -21,7 +21,7 @@ public class  THREAD{
     public static void main(String[] args) {
         Class1 T1= new Class1();
         Class2 C1=new Class2();
-        Thread T2= new Thread(C1);
+        Thread T2= new Thread(C1,"Thread two");
         //Priorities
         // T1.setPriority(1);
         // T2.setPriority(10);
