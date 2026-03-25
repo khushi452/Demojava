@@ -4,8 +4,10 @@ interface Sample2 {
 
 public class Main3 {
     public static void main(String[] args) {
-        Sample2 S = (a, b) -> 
-            a + b;
+        Sample2 S = (a, b) -> {
+            return a+b;
+        };
+           
 
         System.out.println("Sum is " + S.add(5, 3));
     }
