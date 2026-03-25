@@ -1,14 +1,14 @@
 interface Sample2{
-    void display();
+    void display(String name);
 }
 
 
 public class Main2 {
     public static void main(String[] args){
-        Sample2 S = ()->
-            System.out.println("I am in display");
+        Sample2 S = (name)->
+            System.out.println("The name is"+name);
 
-        S.display();
+        S.display("khushi");
     }
     
 }
