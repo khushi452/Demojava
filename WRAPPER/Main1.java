@@ -3,6 +3,10 @@ public class Main1 {
         Integer I1 = 10;
         int a = I1.intValue();
         System.out.println("Primitive value of a: " + a);
+        int b = 12;
+        System.out.println("Primitive value of b: " + b);
+        Float f = 3.2f;
+        System.out.println("Wrapper class object f: " + f);
         
     }
     
