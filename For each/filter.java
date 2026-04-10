@@ -6,7 +6,8 @@ public class filter {
         List<Integer> list = Arrays.asList(5, 3, 1, 4, 2);
 
         List<Integer> res = list.stream()
-            .filter(n -> n % 2 == 0)   // filter even numbers
+            .filter(n -> n % 2 == 0)
+            .map(n-> n * n)
             .collect(Collectors.toList());
 
         System.out.println(res);
