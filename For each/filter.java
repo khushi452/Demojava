@@ -1,0 +1,14 @@
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class filter {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(5, 3, 1, 4, 2);
+
+        List<Integer> res = list.stream()
+            .filter(n -> n % 2 == 0)   // filter even numbers
+            .collect(Collectors.toList());
+
+        System.out.println(res);
+    }
+}
