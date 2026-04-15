@@ -13,5 +13,12 @@ public class Main4 {
         System.out.println("List: " + list);
         list.remove(50);
         System.out.println("List after removing 50: " + list);
+        list.clear();
+        System.out.println("List after clearing: " + list);
+        if(list.isEmpty()) {
+            System.out.println("List is empty");
+        }else {
+            System.out.println("List is not empty");
+        }
     }
 }
