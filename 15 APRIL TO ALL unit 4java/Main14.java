@@ -15,7 +15,7 @@ class Employee{
     }
 }
 
-public class Main13{
+public class Main14{
     public static void main(String[] args) {
         List<Employee> list=new ArrayList<>();//user defined list
         list.add(new Employee(4,"A",10000));
@@ -27,5 +27,7 @@ public class Main13{
 
         list.remove(0);
         System.out.println("After removing first element: " + list);
+        Collections.sort(list);
+        System.out.println("After sorting: " + list);
     }
 }
