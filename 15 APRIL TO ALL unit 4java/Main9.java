@@ -10,6 +10,8 @@ public class Main9
         list.add(20);           
         list.add(15);
         System.out.println("List: " + list);
+        list.add(1,333333);
+        System.out.println("List: " + list);
         list.set(2, 1000);
         System.out.println("List: " + list);
          
