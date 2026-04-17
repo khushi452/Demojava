@@ -14,6 +14,8 @@ public class Main8
         System.out.println("Sorted List: " + list   );
         Collections.sort(list, Collections.reverseOrder());
         System.out.println("Reversed List: " + list);
+        list.sort(Comparator.naturalOrder());
+        System.out.println("Sorted List: " + list);  
     }
     
 }
